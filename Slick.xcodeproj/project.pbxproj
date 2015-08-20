@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4669AFCF1B865592004AE082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669AFCE1B865592004AE082 /* AppDelegate.swift */; };
+		4669AFD11B865592004AE082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669AFD01B865592004AE082 /* ViewController.swift */; };
+		4669AFD41B865592004AE082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4669AFD21B865592004AE082 /* Main.storyboard */; };
+		4669AFD61B865592004AE082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4669AFD51B865592004AE082 /* Assets.xcassets */; };
+		4669AFD91B865592004AE082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4669AFD71B865592004AE082 /* LaunchScreen.storyboard */; };
+		4669AFE41B865592004AE082 /* SlickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669AFE31B865592004AE082 /* SlickUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4669AFE01B865592004AE082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4669AFC31B865592004AE082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4669AFCA1B865592004AE082;
+			remoteInfo = Slick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4669AFCB1B865592004AE082 /* Slick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4669AFCE1B865592004AE082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4669AFD01B865592004AE082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4669AFD31B865592004AE082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4669AFD51B865592004AE082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4669AFD81B865592004AE082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4669AFDA1B865592004AE082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4669AFDF1B865592004AE082 /* SlickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4669AFE31B865592004AE082 /* SlickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlickUITests.swift; sourceTree = "<group>"; };
+		4669AFE51B865592004AE082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4669AFC81B865592004AE082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669AFDC1B865592004AE082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4669AFC21B865592004AE082 = {
+			isa = PBXGroup;
+			children = (
+				4669AFCD1B865592004AE082 /* Slick */,
+				4669AFE21B865592004AE082 /* SlickUITests */,
+				4669AFCC1B865592004AE082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4669AFCC1B865592004AE082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4669AFCB1B865592004AE082 /* Slick.app */,
+				4669AFDF1B865592004AE082 /* SlickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4669AFCD1B865592004AE082 /* Slick */ = {
+			isa = PBXGroup;
+			children = (
+				4669AFCE1B865592004AE082 /* AppDelegate.swift */,
+				4669AFEF1B86563F004AE082 /* Views */,
+				4669AFEE1B865637004AE082 /* Supporting Files */,
+			);
+			path = Slick;
+			sourceTree = "<group>";
+		};
+		4669AFE21B865592004AE082 /* SlickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4669AFE31B865592004AE082 /* SlickUITests.swift */,
+				4669AFE51B865592004AE082 /* Info.plist */,
+			);
+			path = SlickUITests;
+			sourceTree = "<group>";
+		};
+		4669AFEE1B865637004AE082 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4669AFD51B865592004AE082 /* Assets.xcassets */,
+				4669AFD71B865592004AE082 /* LaunchScreen.storyboard */,
+				4669AFDA1B865592004AE082 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4669AFEF1B86563F004AE082 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4669AFD01B865592004AE082 /* ViewController.swift */,
+				4669AFD21B865592004AE082 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4669AFCA1B865592004AE082 /* Slick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4669AFE81B865592004AE082 /* Build configuration list for PBXNativeTarget "Slick" */;
+			buildPhases = (
+				4669AFC71B865592004AE082 /* Sources */,
+				4669AFC81B865592004AE082 /* Frameworks */,
+				4669AFC91B865592004AE082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slick;
+			productName = Slick;
+			productReference = 4669AFCB1B865592004AE082 /* Slick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4669AFDE1B865592004AE082 /* SlickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4669AFEB1B865592004AE082 /* Build configuration list for PBXNativeTarget "SlickUITests" */;
+			buildPhases = (
+				4669AFDB1B865592004AE082 /* Sources */,
+				4669AFDC1B865592004AE082 /* Frameworks */,
+				4669AFDD1B865592004AE082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4669AFE11B865592004AE082 /* PBXTargetDependency */,
+			);
+			name = SlickUITests;
+			productName = SlickUITests;
+			productReference = 4669AFDF1B865592004AE082 /* SlickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4669AFC31B865592004AE082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Andrew Breckenridge";
+				TargetAttributes = {
+					4669AFCA1B865592004AE082 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4669AFDE1B865592004AE082 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4669AFCA1B865592004AE082;
+					};
+				};
+			};
+			buildConfigurationList = 4669AFC61B865592004AE082 /* Build configuration list for PBXProject "Slick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4669AFC21B865592004AE082;
+			productRefGroup = 4669AFCC1B865592004AE082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4669AFCA1B865592004AE082 /* Slick */,
+				4669AFDE1B865592004AE082 /* SlickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4669AFC91B865592004AE082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669AFD91B865592004AE082 /* LaunchScreen.storyboard in Resources */,
+				4669AFD61B865592004AE082 /* Assets.xcassets in Resources */,
+				4669AFD41B865592004AE082 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669AFDD1B865592004AE082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4669AFC71B865592004AE082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669AFD11B865592004AE082 /* ViewController.swift in Sources */,
+				4669AFCF1B865592004AE082 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669AFDB1B865592004AE082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669AFE41B865592004AE082 /* SlickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4669AFE11B865592004AE082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4669AFCA1B865592004AE082 /* Slick */;
+			targetProxy = 4669AFE01B865592004AE082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4669AFD21B865592004AE082 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4669AFD31B865592004AE082 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4669AFD71B865592004AE082 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4669AFD81B865592004AE082 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4669AFE61B865592004AE082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4669AFE71B865592004AE082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4669AFE91B865592004AE082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Slick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfw.Slick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4669AFEA1B865592004AE082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Slick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfw.Slick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4669AFEC1B865592004AE082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfw.SlickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Slick;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4669AFED1B865592004AE082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfw.SlickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Slick;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4669AFC61B865592004AE082 /* Build configuration list for PBXProject "Slick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669AFE61B865592004AE082 /* Debug */,
+				4669AFE71B865592004AE082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4669AFE81B865592004AE082 /* Build configuration list for PBXNativeTarget "Slick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669AFE91B865592004AE082 /* Debug */,
+				4669AFEA1B865592004AE082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4669AFEB1B865592004AE082 /* Build configuration list for PBXNativeTarget "SlickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669AFEC1B865592004AE082 /* Debug */,
+				4669AFED1B865592004AE082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4669AFC31B865592004AE082 /* Project object */;
+}

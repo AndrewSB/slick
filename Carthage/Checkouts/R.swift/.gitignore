@@ -1,0 +1,6 @@
+.DS_Store
+xcuserdata
+*.xccheckout
+ResourceApp/rswift
+ResourceApp/R.generated.swift
+ResourceApp/rswift.log

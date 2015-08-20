@@ -1,0 +1,8 @@
+github "slackhq/SlackTextViewController"
+
+github "AndrewSB/R.swift" "develop"
+github "ReactiveCocoa/ReactiveCocoa" "swift2"
+github "Alamofire/Alamofire" "swift-2.0"
+
+# maybe later
+# github "thoughtbot/Argo"

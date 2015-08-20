@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire" "a457028a7761d220fde374a252011af66db21ffa"
+github "AndrewSB/R.swift" "ede25e35a3f605b5482cada87659a2e726ad8057"
+github "antitypical/Result" "0.6-beta.1"
+github "slackhq/SlackTextViewController" "v1.6"
+github "ReactiveCocoa/ReactiveCocoa" "5cb359c2ac17625ae9f4ce3ac955cc100d666fa6"

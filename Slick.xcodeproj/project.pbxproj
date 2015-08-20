@@ -13,6 +13,19 @@
 		4669AFD61B865592004AE082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4669AFD51B865592004AE082 /* Assets.xcassets */; };
 		4669AFD91B865592004AE082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4669AFD71B865592004AE082 /* LaunchScreen.storyboard */; };
 		4669AFE41B865592004AE082 /* SlickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669AFE31B865592004AE082 /* SlickUITests.swift */; };
+		4669B00B1B868583004AE082 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4669AFF01B865E7D004AE082 /* Alamofire.framework */; };
+		4669B00C1B868583004AE082 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4669AFF01B865E7D004AE082 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4669B00D1B868583004AE082 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4669AFF11B865E7D004AE082 /* ReactiveCocoa.framework */; };
+		4669B00E1B868583004AE082 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4669AFF11B865E7D004AE082 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4669B00F1B868583004AE082 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4669AFF21B865E7D004AE082 /* Result.framework */; };
+		4669B0101B868583004AE082 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4669AFF21B865E7D004AE082 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4669B0111B868583004AE082 /* SlackTextViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4669AFF31B865E7D004AE082 /* SlackTextViewController.framework */; };
+		4669B0121B868583004AE082 /* SlackTextViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4669AFF31B865E7D004AE082 /* SlackTextViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4669B0191B868636004AE082 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669B0181B868636004AE082 /* R.generated.swift */; };
+		4669B01E1B868693004AE082 /* Alamofire.framework.dSYM in Add Carthage dSYM's */ = {isa = PBXBuildFile; fileRef = 4669B01A1B868693004AE082 /* Alamofire.framework.dSYM */; };
+		4669B01F1B868693004AE082 /* ReactiveCocoa.framework.dSYM in Add Carthage dSYM's */ = {isa = PBXBuildFile; fileRef = 4669B01B1B868693004AE082 /* ReactiveCocoa.framework.dSYM */; };
+		4669B0201B868693004AE082 /* Result.framework.dSYM in Add Carthage dSYM's */ = {isa = PBXBuildFile; fileRef = 4669B01C1B868693004AE082 /* Result.framework.dSYM */; };
+		4669B0211B868693004AE082 /* SlackTextViewController.framework.dSYM in Add Carthage dSYM's */ = {isa = PBXBuildFile; fileRef = 4669B01D1B868693004AE082 /* SlackTextViewController.framework.dSYM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +38,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4669B0131B868583004AE082 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4669B0101B868583004AE082 /* Result.framework in Embed Frameworks */,
+				4669B0121B868583004AE082 /* SlackTextViewController.framework in Embed Frameworks */,
+				4669B00C1B868583004AE082 /* Alamofire.framework in Embed Frameworks */,
+				4669B00E1B868583004AE082 /* ReactiveCocoa.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669B0171B8685F7004AE082 /* Add Carthage dSYM's */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				4669B01E1B868693004AE082 /* Alamofire.framework.dSYM in Add Carthage dSYM's */,
+				4669B01F1B868693004AE082 /* ReactiveCocoa.framework.dSYM in Add Carthage dSYM's */,
+				4669B0201B868693004AE082 /* Result.framework.dSYM in Add Carthage dSYM's */,
+				4669B0211B868693004AE082 /* SlackTextViewController.framework.dSYM in Add Carthage dSYM's */,
+			);
+			name = "Add Carthage dSYM's";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4669AFCB1B865592004AE082 /* Slick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4669AFCE1B865592004AE082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +80,15 @@
 		4669AFDF1B865592004AE082 /* SlickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4669AFE31B865592004AE082 /* SlickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlickUITests.swift; sourceTree = "<group>"; };
 		4669AFE51B865592004AE082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4669AFF01B865E7D004AE082 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		4669AFF11B865E7D004AE082 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		4669AFF21B865E7D004AE082 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		4669AFF31B865E7D004AE082 /* SlackTextViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlackTextViewController.framework; path = Carthage/Build/iOS/SlackTextViewController.framework; sourceTree = "<group>"; };
+		4669B0181B868636004AE082 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = Slick/R.generated.swift; sourceTree = "<group>"; };
+		4669B01A1B868693004AE082 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		4669B01B1B868693004AE082 /* ReactiveCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReactiveCocoa.framework.dSYM; path = Carthage/Build/iOS/ReactiveCocoa.framework.dSYM; sourceTree = "<group>"; };
+		4669B01C1B868693004AE082 /* Result.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Result.framework.dSYM; path = Carthage/Build/iOS/Result.framework.dSYM; sourceTree = "<group>"; };
+		4669B01D1B868693004AE082 /* SlackTextViewController.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SlackTextViewController.framework.dSYM; path = Carthage/Build/iOS/SlackTextViewController.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +96,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4669B00F1B868583004AE082 /* Result.framework in Frameworks */,
+				4669B0111B868583004AE082 /* SlackTextViewController.framework in Frameworks */,
+				4669B00B1B868583004AE082 /* Alamofire.framework in Frameworks */,
+				4669B00D1B868583004AE082 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				4669AFCD1B865592004AE082 /* Slick */,
+				4669AFF81B865E82004AE082 /* Frameworks */,
 				4669AFE21B865592004AE082 /* SlickUITests */,
 				4669AFCC1B865592004AE082 /* Products */,
 			);
@@ -112,6 +170,30 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		4669AFF81B865E82004AE082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4669B0221B86869B004AE082 /* dSYM */,
+				4669B0181B868636004AE082 /* R.generated.swift */,
+				4669AFF01B865E7D004AE082 /* Alamofire.framework */,
+				4669AFF11B865E7D004AE082 /* ReactiveCocoa.framework */,
+				4669AFF21B865E7D004AE082 /* Result.framework */,
+				4669AFF31B865E7D004AE082 /* SlackTextViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4669B0221B86869B004AE082 /* dSYM */ = {
+			isa = PBXGroup;
+			children = (
+				4669B01A1B868693004AE082 /* Alamofire.framework.dSYM */,
+				4669B01B1B868693004AE082 /* ReactiveCocoa.framework.dSYM */,
+				4669B01C1B868693004AE082 /* Result.framework.dSYM */,
+				4669B01D1B868693004AE082 /* SlackTextViewController.framework.dSYM */,
+			);
+			name = dSYM;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +204,9 @@
 				4669AFC71B865592004AE082 /* Sources */,
 				4669AFC81B865592004AE082 /* Frameworks */,
 				4669AFC91B865592004AE082 /* Resources */,
+				4669B0131B868583004AE082 /* Embed Frameworks */,
+				4669B0141B868595004AE082 /* Run R.swift */,
+				4669B0171B8685F7004AE082 /* Add Carthage dSYM's */,
 			);
 			buildRules = (
 			);
@@ -207,6 +292,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4669B0141B868595004AE082 /* Run R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run R.swift";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/$PRODUCT_NAME/rswift\" \"$SRCROOT/$PRODUCT_NAME\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4669AFC71B865592004AE082 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,6 +316,7 @@
 			files = (
 				4669AFD11B865592004AE082 /* ViewController.swift in Sources */,
 				4669AFCF1B865592004AE082 /* AppDelegate.swift in Sources */,
+				4669B0191B868636004AE082 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Slick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tfw.Slick;
@@ -351,6 +458,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Slick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tfw.Slick;

@@ -1,5 +1,5 @@
 .DS_Store
-
+*.generated.swift
 # Created by https://www.gitignore.io/api/swift
 
 ### Swift ###
